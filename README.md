@@ -1,2 +1,2 @@
 # FINABOUTME
-This us my portfolio project
+This is my portfolio project
