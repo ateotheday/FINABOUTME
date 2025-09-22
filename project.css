@@ -1,0 +1,39 @@
+
+.imageo
+{
+    width: 100%;
+    height: auto;
+}
+/* style.css */
+#blossom-container {
+    position: fixed; /* Or absolute, depending on desired behavior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allows interaction with elements beneath the petals */
+    overflow: hidden; /* Prevents petals from appearing outside the container */
+    z-index: 9999; /* Ensures petals are on top */
+}
+
+.petal {
+    position: absolute;
+    background-color: #ffb6c1; /* Light pink color */
+    border-radius: 50% 10% 50% 10%; /* Creates a petal-like shape */
+    opacity: 0.8;
+    animation: fall linear infinite; /* Apply the falling animation */
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(100vh) rotate(720deg); /* Fall down and rotate */
+        opacity: 0;
+    }
+}

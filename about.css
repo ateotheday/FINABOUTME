@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aGQ3Y3kza2gyanZjc3k5a204MG4zMHk0MGdleXU1OHNvajJlcGg0dyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/AawUnPHbl1qPCxQox6/giphy.gif");
+    background-size: cover;
+    background-position: center;
+
+    
+      
+
+}
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  min-height: 100vh;      /* Ensures the container takes full viewport height */
+  width: 100%;   
+          /* Ensures the container takes full viewport width */
+}
+
+.box {
+  width: 570px;
+  height: 380px;
+  background-color: black;
+  border: 1px black;
+  text-align: center;
+  padding: 20px;
+  opacity:0.9;
+  position:relative;
+ scrollbar-color: white rgb(36, 36, 37);
+ overflow:auto;
+
+   
+}
+.image{
+  float: left;              /* lets text flow around the image */
+  margin: 15px 15px 15px 0;    /* spacing so text doesn’t touch image */
+  width:120px;    
+  height:120px;         /* control image size */
+  border-radius: 10px;      /* optional: rounded corners */
+}
+
+
+.navtab {
+ 
+  background-color: rgb(36, 36, 37);
+  position: absolute; /* Set the navbar to fixed position */
+  top:0; /* Position the navbar at the top of the page */
+  width: 570px;
+  height:25px;
+  padding:0px;
+  margin:0px;
+text-align: left;
+
+}
+.img{
+    width:800px;
+}
+
+.textin
+{
+text-align: left;
+position:relative;
+}
+#myDiv
+{
+    text-align: left;
+}
