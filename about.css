@@ -1,10 +1,10 @@
 body{
     margin:0;
     padding:0;
-    background-image: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aGQ3Y3kza2gyanZjc3k5a204MG4zMHk0MGdleXU1OHNvajJlcGg0dyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/AawUnPHbl1qPCxQox6/giphy.gif");
+    background-color:transparent;
     background-size: cover;
-    background-position: center;
-
+    background-position: fixed;
+    overflow-y:scroll;
     
       
 
@@ -21,7 +21,7 @@ body{
 .box {
   width: 570px;
   height: 380px;
-  background-color: black;
+  background-color: transparent;
   border: 1px black;
   text-align: center;
   padding: 20px;
@@ -29,6 +29,7 @@ body{
   position:relative;
  scrollbar-color: white rgb(36, 36, 37);
  overflow:auto;
+ 
 
    
 }
