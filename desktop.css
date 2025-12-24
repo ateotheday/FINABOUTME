@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url("1000067334.gif") center/cover no-repeat;
+  overflow: hidden;
+}
+
+/* DESKTOP ICONS */
+.desktop {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 90px);
+  gap: 30px;
+}
+
+.icon {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+.icon img {
+  width: 64px;
+  margin-bottom: 6px;
+}
+.icon span {
+  font-size: 0.9rem;
+}
+
+/* WINDOW */
+.window {
+  width: 70%;
+  height: 75%;
+  position: fixed;
+  top: 12%;
+  left: 15%;
+  background: transparent;
+  border-radius: 14px;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* TITLE BAR */
+.title-bar {
+  height: 42px;
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  font-size: 0.9rem;
+  cursor: move; /* draggable */
+}
+
+.window-buttons button {
+  margin-left: 5px;
+  cursor: pointer;
+  background: #222;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+.window-buttons button:hover {
+  background: #555;
+}
+
+/* IFRAME */
+iframe {
+  width: 100%;
+  height: calc(100% - 42px);
+  border: none;
+  background: transparent;
+}
